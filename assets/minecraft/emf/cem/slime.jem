@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 32],
+	"texture": "no_one_is_more_deserving_of_a_rest.png",
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"texture": "emf/cem/all_the_effort_in_the_world.png",
+			"textureSize": [500, 500],
+			"boxes": [
+				{
+					"coordinates": [-5, -1.25, 0, 10, 1.25, -1],
+					"uvUp": [0, 437.5, 500, 500]
+				},
+				{
+					"coordinates": [-5, 0, 0, 10, 8.75, 0],
+					"uvNorth": [0, 0, 500, 437.5]
+				}
+			]
+		},
+		{
+			"part": "right_eye",
+			"id": "right_eye",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "left_eye",
+			"id": "left_eye",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "mouth",
+			"id": "mouth",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		}
+	]
+}

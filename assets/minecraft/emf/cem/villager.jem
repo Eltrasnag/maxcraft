@@ -1,0 +1,121 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "nose",
+			"id": "nose",
+			"invertAxis": "xy",
+			"translate": [0, -26, 0]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "headwear2",
+			"id": "headwear2",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"rotate": [90, 0, 0],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"texture": "emf/cem/security_guard.png",
+			"textureSize": [246, 499],
+			"boxes": [
+				{
+					"coordinates": [-9, 12, 0, 17, 12, 1],
+					"uvNorth": [0, 87.25, 246, 241]
+				},
+				{
+					"coordinates": [-9, 23.9, 0, 17, 7, 1],
+					"uvNorth": [0, 0, 246, 87.25],
+					"uvEast": [0, 8, 8, 18],
+					"uvSouth": [24, 8, 32, 18],
+					"uvWest": [16, 8, 24, 18],
+					"uvUp": [16, 8, 8, 0],
+					"uvDown": [24, 0, 16, 8]
+				}
+			]
+		},
+		{
+			"part": "bodywear",
+			"id": "bodywear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "arms",
+			"id": "arms",
+			"invertAxis": "xy",
+			"translate": [0, -21.05, 1.05],
+			"rotate": [43, 0, 0],
+			"submodels": [
+				{
+					"id": "mirrored",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0]
+				}
+			],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -12, 0],
+			"texture": "emf/cem/security_guard.png",
+			"textureSize": [246, 499],
+			"boxes": [
+				{
+					"coordinates": [-0.9, 0, 0, 8.9, 12, 1],
+					"uvNorth": [0, 241, 128.78824, 413.25]
+				},
+				{
+					"coordinates": [-0.9, -0.9, -5, 8.9, 1, 5],
+					"uvUp": [128.78824, 470, 0, 413.25]
+				}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [2, -12, 0],
+			"texture": "emf/cem/security_guard.png",
+			"textureSize": [246, 499],
+			"boxes": [
+				{
+					"coordinates": [-9, 0, 0, 8.1, 12, 1],
+					"uvNorth": [128.78824, 241, 246, 362.25]
+				},
+				{
+					"coordinates": [-9, -0.9, -5, 8.1, 1, 5],
+					"uvUp": [246, 406, 128.78824, 362.25]
+				}
+			]
+		}
+	]
+}
