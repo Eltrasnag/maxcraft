@@ -1,0 +1,99 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [512, 512],
+	"texture": "emf/cem/alibaba_truck.png",
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-17, 10, -21, 34, 36, 62],
+					"uvNorth": [34, 190, 68, 226],
+					"uvEast": [64, 154, 126, 190],
+					"uvSouth": [68, 190, 102, 226],
+					"uvWest": [126, 154, 188, 190],
+					"uvUp": [34, 238, 0, 176],
+					"uvDown": [222, 130, 188, 192]
+				},
+				{"coordinates": [-17, 8, -59, 34, 2, 100], "textureOffset": [0, 0]},
+				{"coordinates": [-17, 10, -45, 34, 27, 23], "textureOffset": [0, 102]},
+				{"coordinates": [-17, 10, -59, 34, 14, 14], "textureOffset": [114, 102]},
+				{"coordinates": [-18, 0, -40, 4, 12, 12], "textureOffset": [114, 130]},
+				{"coordinates": [-18, 0, 17, 4, 12, 12], "textureOffset": [146, 130]},
+				{"coordinates": [14, 0, -40, 4, 12, 12], "textureOffset": [0, 152]},
+				{"coordinates": [14, 0, 17, 4, 12, 12], "textureOffset": [32, 152]}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "nose",
+			"id": "nose",
+			"invertAxis": "xy",
+			"translate": [0, -26, 0]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "headwear2",
+			"id": "headwear2",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"rotate": [90, 0, 0],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "bodywear",
+			"id": "bodywear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "arms",
+			"id": "arms",
+			"invertAxis": "xy",
+			"translate": [0, -21.05, 1.05],
+			"rotate": [43, 0, 0],
+			"submodels": [
+				{
+					"id": "mirrored",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0]
+				}
+			],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -12, 0]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [2, -12, 0]
+		}
+	]
+}
