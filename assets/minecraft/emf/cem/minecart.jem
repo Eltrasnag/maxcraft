@@ -1,0 +1,188 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "front",
+			"id": "front",
+			"invertAxis": "xy",
+			"translate": [0, -2, 8],
+			"rotate": [0, -180, 0],
+			"texture": "emf/cem/minecart.png",
+			"textureSize": [128, 128],
+			"boxes": [
+				{
+					"coordinates": [-9, 2, -20, 1, 8, 12],
+					"uvNorth": [18, 2, 20, 10],
+					"uvEast": [2, 2, 18, 10],
+					"uvSouth": [0, 2, 2, 10],
+					"uvWest": [33, 13, 125, 61.25],
+					"uvUp": [18, 2, 2, 0],
+					"uvDown": [67, 21, 58, 24]
+				},
+				{"coordinates": [-8, 3, -9, 16, 8, 2], "textureOffset": [10, 4]},
+				{"coordinates": [-9, 2, -8, 18, 8, 3], "textureOffset": [1, 3]},
+				{"coordinates": [-8, 3, -5, 16, 6, 1], "textureOffset": [2, 73]},
+				{
+					"coordinates": [8, 2, -20, 1, 8, 12],
+					"uvNorth": [16, 0, 5, 8],
+					"uvEast": [33, 13, 125, 61],
+					"uvSouth": [15, 4, 16, 12],
+					"uvWest": [-1, 6, 17, 14],
+					"uvUp": [5, 19, 4, 0],
+					"uvDown": [26, 0, 25, 18]
+				},
+				{"coordinates": [-6, 11, -27, 12, 4, 2], "textureOffset": [0, 121]},
+				{"coordinates": [8, 2, -27, 1, 9, 7], "textureOffset": [9, 24]},
+				{"coordinates": [-9, 2, -27, 1, 9, 7], "textureOffset": [9, 24]}
+			],
+			"submodels": [
+				{
+					"id": "wiggle roof",
+					"invertAxis": "xy",
+					"translate": [7, 12, -17],
+					"boxes": [
+						{"coordinates": [-1, -1, -10, 2, 10, 2], "textureOffset": [98, 108]},
+						{"coordinates": [-1, 15, -8, 2, 2, 16], "textureOffset": [98, 109]},
+						{
+							"coordinates": [-13, 15, -8, 12, 3, 3],
+							"uvNorth": [55, 125, 67, 128],
+							"uvEast": [50, 125, 55, 128],
+							"uvSouth": [83, 125, 95, 128],
+							"uvWest": [67, 125, 72, 128],
+							"uvUp": [67, 125, 55, 120],
+							"uvDown": [79, 120, 67, 125]
+						},
+						{
+							"coordinates": [-13, 15, -5, 12, 3, 10],
+							"uvNorth": [33, 108, 45, 111],
+							"uvEast": [37, 114, 43, 117],
+							"uvSouth": [83, 125, 95, 128],
+							"uvWest": [37, 118, 43, 121],
+							"uvUp": [70, 95, 58, 89],
+							"uvDown": [42, 101, 30, 107]
+						},
+						{"coordinates": [-13, 15, 5, 12, 3, 3], "textureOffset": [41, 122]},
+						{"coordinates": [-1, 9, -9, 2, 6, 2], "textureOffset": [98, 99]},
+						{"coordinates": [-15, -1, -10, 2, 10, 2], "textureOffset": [98, 108]},
+						{"coordinates": [-15, -1, 8, 2, 10, 2], "textureOffset": [98, 108]},
+						{"coordinates": [-1, -1, 8, 2, 10, 2], "textureOffset": [98, 108]},
+						{"coordinates": [-15, 15, -8, 2, 2, 16], "textureOffset": [98, 109]},
+						{"coordinates": [-15, 9, -9, 2, 6, 2], "textureOffset": [98, 99]},
+						{"coordinates": [-1, 9, 7, 2, 6, 2], "textureOffset": [98, 99]},
+						{"coordinates": [-15, 9, 7, 2, 6, 2], "textureOffset": [98, 99]}
+					]
+				},
+				{
+					"id": "wheelz",
+					"invertAxis": "xy",
+					"translate": [10, 2, -9],
+					"boxes": [
+						{"coordinates": [-2, -1, -3, 3, 4, 6], "textureOffset": [101, 73]},
+						{"coordinates": [-2, -2, -2, 3, 1, 4], "textureOffset": [100, 92]},
+						{"coordinates": [-2, 3, -2, 3, 1, 4], "textureOffset": [100, 92]}
+					]
+				},
+				{
+					"id": "wheelz2",
+					"invertAxis": "xy",
+					"translate": [10, 2, -22],
+					"boxes": [
+						{"coordinates": [-2, -1, -3, 3, 4, 6], "textureOffset": [101, 73]},
+						{"coordinates": [-2, -2, -2, 3, 1, 4], "textureOffset": [100, 92]},
+						{"coordinates": [-2, 3, -2, 3, 1, 4], "textureOffset": [100, 92]}
+					]
+				},
+				{
+					"id": "wheelz3",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [-10, 2, -22],
+					"boxes": [
+						{"coordinates": [-1, -1, -3, 3, 4, 6], "textureOffset": [101, 73]},
+						{"coordinates": [-1, -2, -2, 3, 1, 4], "textureOffset": [100, 92]},
+						{"coordinates": [-1, 3, -2, 3, 1, 4], "textureOffset": [100, 92]}
+					]
+				},
+				{
+					"id": "wheelz4",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [-10, 2, -9],
+					"boxes": [
+						{"coordinates": [-1, -1, -3, 3, 4, 6], "textureOffset": [101, 73]},
+						{"coordinates": [-1, -2, -2, 3, 1, 4], "textureOffset": [100, 92]},
+						{"coordinates": [-1, 3, -2, 3, 1, 4], "textureOffset": [100, 92]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "left",
+			"id": "left",
+			"invertAxis": "xy",
+			"translate": [-7, -2, -1],
+			"rotate": [0, 90, 0],
+			"animations": [
+				{
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "right",
+			"id": "right",
+			"invertAxis": "xy",
+			"translate": [7, -2, -1],
+			"rotate": [0, -90, 0],
+			"texture": "emf/cem/minecart.png",
+			"textureSize": [128, 128],
+			"boxes": [
+				{"coordinates": [-15, 3, 0, 16, 8, 2], "textureOffset": [10, 4]},
+				{"coordinates": [-15, 3, -14, 16, 8, 2], "textureOffset": [10, 4]}
+			],
+			"animations": [
+				{
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "back",
+			"id": "back",
+			"invertAxis": "xy",
+			"translate": [0, -2, -10],
+			"texture": "emf/cem/minecart.png",
+			"textureSize": [128, 128],
+			"boxes": [
+				{"coordinates": [-8, 3, 9, 16, 8, 2], "textureOffset": [10, 4]}
+			]
+		},
+		{
+			"part": "bottom",
+			"id": "bottom",
+			"invertAxis": "xy",
+			"translate": [0, -2, -1],
+			"rotate": [0, 90, 90],
+			"texture": "emf/cem/minecart.png",
+			"textureSize": [128, 128],
+			"boxes": [
+				{"coordinates": [-10, -6, 0, 20, 16, 2], "textureOffset": [8, 5]},
+				{"coordinates": [-11, -6, 0, 1, 2, 1], "textureOffset": [63, 79]},
+				{"coordinates": [-11, -6, 2, 2, 3, 3], "textureOffset": [13, 46]},
+				{"coordinates": [-11, 7, 2, 2, 3, 3], "textureOffset": [13, 46]}
+			],
+			"animations": [
+				{
+					"this.ry": 0,
+					"this.rz": 0
+				}
+			]
+		}
+	]
+}
